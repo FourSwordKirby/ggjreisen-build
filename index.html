@@ -9,7 +9,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Webbuild.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/ggjreisen-build.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
@@ -20,6 +20,17 @@
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
         <div class="title">GGJReisen</div>
       </div>
+    </div>
+    <div>
+      <ul>
+        <li>Move - WSAD</li>
+        <li>Interact / Advance Dialogue - Left Shift or Enter</li>
+        <li>Jump - Space</li>
+        <li>Pause - Esc</li>
+      </ul>
+      <p>
+        Expand the player for full screen.
+      </p>
     </div>
   </body>
 </html>
